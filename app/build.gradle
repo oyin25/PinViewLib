@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.HP.Verification
+    namespace 'com.HP.Verification'
     compileSdk 31
 
     defaultConfig {
