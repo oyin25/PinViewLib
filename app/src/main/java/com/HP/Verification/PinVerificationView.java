@@ -81,10 +81,6 @@ public class PinVerificationView extends LinearLayout {
 	
 	private void initialize() {
 		main = findViewById(R.id.main);
-		toolbar = findViewById(R.id.toolbar);
-		keypad = findViewById(R.id.keypad);
-		layer_2 = findViewById(R.id.layer_2);
-		title_txt = findViewById(R.id.title_txt);
 		passcode_txt = findViewById(R.id.passcode_txt);
 		linearLayout = findViewById(R.id.linearLayout);
 		indicator = findViewById(R.id.indicator);
