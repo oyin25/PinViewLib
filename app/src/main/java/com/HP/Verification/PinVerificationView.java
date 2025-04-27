@@ -1,52 +1,24 @@
 package com.HP.Verification;
 
-import android.animation.*;
 import android.animation.ObjectAnimator;
-import android.app.*;
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.*;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.res.*;
-import android.graphics.*;
-import android.graphics.drawable.*;
-import android.media.*;
-import android.net.*;
-import android.net.Uri;
-import android.os.*;
-import android.os.Bundle;
-import android.text.*;
-import android.text.style.*;
-import android.util.*;
-import android.view.*;
+import android.content.Context;
+import android.graphics.Color;
+import android.graphics.Typeface;
+import android.graphics.drawable.GradientDrawable;
+import android.util.AttributeSet;
 import android.view.View;
-import android.view.View.*;
-import android.view.animation.*;
-import android.view.animation.AccelerateDecelerateInterpolator;
-import android.view.animation.AccelerateInterpolator;
-import android.view.animation.BounceInterpolator;
-import android.view.animation.DecelerateInterpolator;
-import android.view.animation.LinearInterpolator;
-import android.webkit.*;
-import android.widget.*;
+import android.view.animation.CycleInterpolator;
+import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import androidx.annotation.*;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.DialogFragment;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import java.io.*;
-import java.io.InputStream;
-import java.text.*;
-import java.util.*;
+import android.app.Activity;
+import android.content.res.ColorStateList;
+import android.graphics.drawable.RippleDrawable;
+
 import java.util.Timer;
 import java.util.TimerTask;
-import java.util.regex.*;
-import org.json.*;
+
 
 public class PinVerificationView extends LinearLayout {
 	
